@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+
+<main style="background: lightblue; padding: 20px; width: 300px; margin: auto;">
+
+    <h2>Formulario de acceso</h2>
+
+    <form id="formulario">
+        <label>Usuario:</label>
+        <input type="text" id="usuario">
+
+        <br><br>
+
+        <label>Contraseña:</label>
+        <input type="password" id="clave">
+
+        <br><br>
+
+        <button>Guardar</button>
+    </form>
+
+    <br>
+
+    <button onclick="mostrar()">Mostrar datos</button>
+    <button onclick="borrar()">Borrar datos</button>
+
+    <p id="mensaje"></p>
+    <div id="datos"></div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
